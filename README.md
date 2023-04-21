@@ -1,1 +1,1 @@
-# shop-for-gamers
+# GoIT HTML/CSS Course 
