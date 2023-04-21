@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://OlgaMunaieva.github.io/SHOP-FOR-GAMERS/",
+  "homepage": "https://UnaRumel.github.io/shop-for-gamers-project/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /SHOP-FOR-GAMERS/"
