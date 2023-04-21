@@ -1,0 +1,79 @@
+.banners {
+  padding: 0 0 48px 0;
+
+  @include tablet {
+    padding: 120px 0;
+    background-image: url(../images/banners/banners-tab-rock.svg);
+    background-position: left calc(50vw + 75px) top 14px;
+    background-repeat: no-repeat;
+  }
+
+  @include desktop {
+    background-image: url(../images/banners/banners-bg-desk.png);
+    background-size: contain;
+    background-position: bottom;
+
+    @include retina {
+      background-image: url(../images/banners/banners-bg-desk@2x.png);
+    }
+  }
+}
+
+.banners__container {
+  padding: 0;
+}
+
+.banners__swiper {
+  max-width: 1280px;
+  margin: 0 auto;
+  // height: 545px;
+
+  padding-bottom: 40px;
+
+  @include desktop {
+    // height: 550px;
+  }
+}
+
+.banner-image__wrapper {
+  position: relative;
+}
+
+.banner-image__text {
+  display: none;
+  position: absolute;
+
+  font-weight: 500;
+  font-size: 56px;
+  line-height: calc(66 / 56);
+
+  background: linear-gradient(
+    270deg,
+    #1edde0 13.26%,
+    #8bda41 51.01%,
+    #ef001b 107.89%
+  );
+  background-clip: text;
+  color: transparent;
+
+  @media screen and (min-width: 321px) {
+    display: block;
+  }
+
+  &--first {
+    max-width: 590px;
+    left: 49px;
+    bottom: 49px;
+
+    @include desktop {
+      left: 345px;
+      bottom: 49px;
+    }
+  }
+
+  &--second {
+    max-width: 596px;
+    left: 49px;
+    bottom: 49px;
+  }
+}

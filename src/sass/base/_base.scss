@@ -1,0 +1,28 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+@import '~node_modules/animate.css/animate.min.css';
+@import '~node_modules/swiper/swiper-bundle.min.css';
+@import './vars';
+@import './reset-styles';
+@import './visually-hidden';
+
+
+@font-face {
+  font-family: roboto-regular;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: roboto-medium;
+  src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: roboto-bold;
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: getColor('BackgroundColor');
+}

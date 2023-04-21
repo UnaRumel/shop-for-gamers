@@ -1,47 +1,46 @@
-<header class="header" id="header-id">
-  <div class="snow">
-    <div class="container header__overlay">
-      <a class="logo" href="./index.html">shop for gamers</a>
-      <nav class="header__nav">
-        <ul class="header__list">
-          <li class="header__item">
-            <a class="header__link" href="./all-accessories.html">Accessories</a>
-          </li>
-          <li class="header__item">
-            <a class="header__link" href="./take-order.html">Take order</a>
-          </li>
-          <li class="header__item">
-            <a class="header__link" href="./contacts.html">Contact</a>
-          </li>
-          <li class="header__item">
-            <a class="header__link" href="./blog-page.html">Blog</a>
-          </li>
-        </ul>
-      </nav>
-      <button type="button" class="menu-button" aria-expanded="false" aria-controls="menu-container" data-menu-button>
-        <svg width="54" height="36" aria-label="Перемикач мобільного меню">
-          <use class="icon-open" href="./images/sprite/symbol-defs.svg#icon-eva_menu-outline"></use>
-          <use class="icon-close" href="./images/sprite/symbol-defs.svg#icon-akar-icons_cross"></use>
-        </svg>
-      </button>
-      <a class="header__button button button--header" type="btn" href="./all-accessories.html">Shop now</a>
-    </div>
-  </div>
+<header class="header">
+  <div class="container header__container">
+    <a href="./index.html" class="logo animate__animated animate__fadeIn">SHOP FOR GAMERS</a>
+
+    <button
+      type="button"
+      class="menu-btn js-open-menu"
+      aria-expanded="false"
+      aria-controls="menu"
+      menu-button
+    >
+      <svg width="50" height="50" aria-label="mobile menu switcher">
+        <use
+          href="./images/icons.svg#icon-menu"
+          class="menu-btn__icon-menu"
+        ></use>
+        <use
+          href="./images/icons.svg#icon-cross"
+          class="menu-btn__icon-cross"
+        ></use>
+      </svg>
+    </button>
+
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a href="./accessories-page.html" class="navigation__link"
+            >Accessories</a
+          >
+        </li>
+        <li class="navigation__item">
+          <a href="./contacts-page.html" class="navigation__link">Contact</a>
+        </li>
+        <li class="navigation__item">
+          <a href="./blog-page.html" class="navigation__link">Blog</a>
+        </li>
+      </ul>
+    </nav>
+
+    <a
+      href="./accessories-page.html"
+      class="btn-primary btn-primary--small header__button"
+      >Shop now</a
+    >
   </div>
 </header>
-<div class="menu-container" id="menu-container" data-menu>
-  <ul class="menu__list">
-    <li class="menu__item">
-      <a class="menu__link" href="./all-accessories.html">Accessories</a>
-    </li>
-    <li class="menu__item">
-      <a class="menu__link" href="./take-order.html">Take order</a>
-    </li>
-    <li class="menu__item">
-      <a class="menu__link" href="./contacts.html">Contact</a>
-    </li>
-    <li class="menu__item">
-      <a class="menu__link" href="./blog-page.html">Blog</a>
-    </li>
-  </ul>
-</div>
